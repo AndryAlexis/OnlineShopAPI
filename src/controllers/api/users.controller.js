@@ -32,7 +32,7 @@ const login = async (req, res, next) => {
         }
 
         res.json({
-            message : 'Correct login',
+            message : 'Te logeaste, hermano',
             toke : createToken(user)
         })
     } catch (error) {
